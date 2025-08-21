@@ -25,6 +25,6 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            GabrieldeMelo/production-example:latest
+            gabrielmelo158/teste:latest
           platforms: linux/amd64     
 
