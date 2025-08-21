@@ -8,7 +8,7 @@ const app = new Hono();
 await delay(5000);
 
 app.get("/", (c) => {
-	return c.text("Hello Hono! mudança de texto");
+	return c.text("Hello Hono! auto deploy toooop");
 });
 
 app.get("/health", (c) => {
